@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+/* background */
+
+body{
+position: flex;
+text-align: center;
+align-items: center;
+width: 100%;
+height: 100%;
+
+background-color: #A89AFF;
+margin: 0px;
+}
+
+/* Rectangle 3 */
+
+#rectangle{
+position: absolute;
+width: 416px;
+height: 47px;
+left: calc(50% - 406px/2);
+top: calc(50% - 47px/2 - 264.5px);
+
+background: #FFFFFF;
+border-radius: 46px;
+}
+
+/* Youtube Music_Prototype */
+
+#p1{
+position: absolute;
+width: 382px;
+height: 38px;
+left: calc(50% - 377px/2 + 0.5px);
+top: calc(50% - 38px/2 - 298px);
+
+font-family: 'Noto Sans KR', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 38px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+
+/* YT_Music 1 */
+
+#yTlogo{
+position: absolute;
+width: 427px;
+height: 128px;
+left: calc(50% - 427px/2 + 0.5px);
+top: calc(50% - 128px/2 - 367px);
+}
+
+/* As is */
+#as{
+position: absolute;
+width: 100px;
+height: 58px;
+left: calc(50% - 99px/2 - 126.5px);
+top: calc(50% - 58px/2 - 243px);
+
+font-family: 'Noto Sans KR', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+
+}
+
+
+
+/* To be */
+
+#to{
+position: absolute;
+width: 122px;
+height: 58px;
+left: calc(50% - 121px/2 + 133.5px);
+top: calc(50% - 58px/2 - 243px);
+
+font-family: 'Noto Sans KR', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+}
+
+/* Asis_png */
+
+#asisimg{
+position: absolute;
+width: 210px;
+height: 355px;
+left: calc(50% - 177px/2 - 130.5px);
+top: calc(50% - 397px/2 + 20.5px);
+}
+
+/* tobe_png */
+
+#tobeimg{
+position: absolute;
+width: 206px;
+height: 350px;
+left: calc(50% - 177px/2 + 129.5px);
+top: calc(50% - 395px/2 + 20.5px);
+}
+
+/* Click */
+
+#click1{
+position: absolute;
+width: 44/2px;
+height: 22px;
+left: calc(50% - 42px/2 - 146px);
+top: calc(50% - 22px/2 + 160px);
+
+font-family: 'Noto Sans KR', sans-serif;
+font-style: medium;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+}
+
+
+
+/* Click */
+
+#click2{
+position: absolute;
+width: 44/2px;
+height: 22px;
+left: calc(50% - 42px/2 + 115px);
+top: calc(50% - 22px/2 + 160px);
+
+font-family: 'Noto Sans KR', sans-serif;
+font-style: medium;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+}
+
+
+/* Rectangle 2 */
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#foot{
+height: 50px;
+
+background: #1D1D1D;
+
+font-family: 'Noto Sans KR', sans-serif;
+font-style: medium;
+font-weight: 200;
+font-size: 16px;
+line-height: 40px;
+text-align: center;
+align-items: center;
+color: #FFFFFF;
+}
